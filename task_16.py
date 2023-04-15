@@ -8,7 +8,7 @@
 # -> 1
 import random
 
-number_N = int(input("Введите количество элементов в списке^\n"))
+number_N = int(input("Введите количество элементов в списке\n"))
 number_X = int(input("Введите искомое число:\n"))
 
 some_list = [random.randint(0, number_X + 2) for i in range(0, number_N)]
